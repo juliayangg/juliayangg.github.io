@@ -27,6 +27,17 @@
   justify-content: center;
 }
 
+.content-about {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  max-width: 275px;
+  margin: 0 auto;
+}
+
 .intro {
   font-family: 'Arsenal', serif;
   font-style: italic;
@@ -58,4 +69,45 @@ body {
 
 .link {
   color: #000000;
+}
+
+.img {
+  width: 290px;
+}
+
+
+.sqsp::after{
+  content: '';
+  background-color: lightgray;
+  height: 8px;
+  width: 100px;
+  position: absolute;
+  transform: translate(-98px, 13px);
+  z-index: -1;
+}
+
+.cornell::after{
+  content: '';
+  background-color: #B31B1B;
+  opacity: 70%;
+  height: 8px;
+  width: 58px;
+  position: absolute;
+  transform: translate(-55px, 13px);
+  z-index: -1;
+}
+
+.remove-margin {
+  margin-bottom: 0px;
+}
+
+.list {
+  margin-left: 12px;
+  margin-top: 3px;
+  list-style: none;
+}
+
+.ele {
+  text-align: left;
+  padding-bottom: 3px;
 }
