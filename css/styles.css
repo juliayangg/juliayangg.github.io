@@ -5,7 +5,12 @@
   height: 100vh;
 }
 
+.header {
+  display: flex;
+}
+
 .nav {
+  margin-left: auto;
   display: flex;
   justify-content: flex-end;
   list-style: none;
@@ -111,4 +116,8 @@ body {
 .ele {
   text-align: left;
   padding-bottom: 3px;
+}
+
+.logo {
+  width: 70px;
 }
