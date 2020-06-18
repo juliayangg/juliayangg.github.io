@@ -34,8 +34,9 @@
 }
 
 .about {
-  max-width: 275px;
-  margin: 0 auto;
+  max-width: 285px;
+  margin-left: auto;
+  margin-right: 0px;
 }
 
 .intro {
