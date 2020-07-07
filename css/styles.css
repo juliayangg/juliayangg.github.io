@@ -44,6 +44,10 @@
   margin: auto;
 }
 
+.about-img {
+  width: 50%;
+}
+
 .intro {
   font-family: 'Arsenal', serif;
   font-style: italic;
