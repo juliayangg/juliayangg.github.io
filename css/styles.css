@@ -39,9 +39,8 @@
 }
 
 .about {
-  max-width: 285px;
-  margin-left: auto;
-  margin-right: 0px;
+  max-width: 500px;
+  padding: 15px;
 }
 
 .intro {
