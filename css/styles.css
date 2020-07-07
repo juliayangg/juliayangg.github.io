@@ -52,7 +52,7 @@
   letter-spacing: 3px;
 }
 
-.intro:after {
+/* .intro:after {
   content: '';
   background-color: #FFD3D3;
   margin: 0 auto;
@@ -62,7 +62,7 @@
   height: 40px;
   width: 365px;
   z-index: -1;
-}
+} */
 
 .description {
   text-align: right;
