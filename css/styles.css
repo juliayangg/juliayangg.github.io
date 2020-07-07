@@ -41,6 +41,7 @@
 .about {
   max-width: 500px;
   padding: 15px;
+  margin: auto;
 }
 
 .intro {
