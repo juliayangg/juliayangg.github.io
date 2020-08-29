@@ -1,78 +1,14 @@
 .container {
   text-align: center;
-  padding: 20px 230px;
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-}
-
-.header {
-  display: flex;
-}
-
-.nav {
-  margin-left: auto;
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-}
-
-.nav-link {
-  padding-top: 10px;
-  padding-right: 80px;
-}
-
-.nav-link:last-child {
-  padding-right: 0px;
-}
-
-.content {
-  height: 80%;
-  width: 50%;
+  max-width: 500px;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.content-about {
-  height: 80%;
   display: flex;
   align-items: center;
-}
-
-.about {
-  max-width: 500px;
-  padding: 15px;
-  margin: auto;
-}
-
-.about-img {
-  width: 50%;
-}
-
-.intro {
-  font-family: 'Arsenal', serif;
-  font-style: italic;
-  font-size: 60px;
-  text-align: left;
-  letter-spacing: 3px;
-}
-
-/* .intro:after {
-  content: '';
-  background-color: #FFD3D3;
-  margin: 0 auto;
-  position: absolute;
-  top: 340px;
-  left: 200px;
-  height: 40px;
-  width: 365px;
-  z-index: -1;
-} */
-
-.description {
-  text-align: right;
-  padding-top: 35px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 body {
@@ -80,50 +16,13 @@ body {
 }
 
 .link {
-  color: #000000;
+  color: #4c4c4c;
+}
+
+.link:hover {
+  color: #cccccc;
 }
 
 .img {
   width: 290px;
-}
-
-
-.sqsp::after{
-  content: '';
-  background-color: lightgray;
-  height: 8px;
-  width: 100px;
-  position: absolute;
-  transform: translate(-98px, 13px);
-  z-index: -1;
-}
-
-.cornell::after{
-  content: '';
-  background-color: #B31B1B;
-  opacity: 70%;
-  height: 8px;
-  width: 58px;
-  position: absolute;
-  transform: translate(-55px, 13px);
-  z-index: -1;
-}
-
-.remove-margin {
-  margin-bottom: 0px;
-}
-
-.list {
-  margin-left: 12px;
-  margin-top: 3px;
-  list-style: none;
-}
-
-.ele {
-  text-align: left;
-  padding-bottom: 5px;
-}
-
-.logo {
-  width: 70px;
 }
