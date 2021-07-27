@@ -11,8 +11,16 @@
   justify-content: center;
 }
 
+.text {
+  background-color: #FFFFFF; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px #191919;
+}
+
 body {
   margin: 0px;
+  background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
 }
 
 .link {
@@ -21,8 +29,4 @@ body {
 
 .link:hover {
   color: #cccccc;
-}
-
-.img {
-  width: 290px;
 }
