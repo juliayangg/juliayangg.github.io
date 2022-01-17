@@ -1,5 +1,4 @@
 .container {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
   max-width: 500px;
@@ -12,10 +11,9 @@
 }
 
 .text {
-  background-color: #FFFFFF; 
+  background-color: #f1f1f1f1;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 10px 10px #191919;
 }
 
 body {
@@ -25,6 +23,7 @@ body {
 
 .link {
   color: #4c4c4c;
+  transition: color 0.25s ease-in;
 }
 
 .link:hover {
